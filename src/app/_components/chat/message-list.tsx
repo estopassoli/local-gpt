@@ -3,7 +3,7 @@
 import { ScrollArea } from "@/components/ui/scroll-area";
 import type { Message } from "@/contexts/chat-context";
 import { useChat } from "@/contexts/chat-context";
-import { useAutoScroll } from "@/hooks/use-auto-scroll-new";
+import { useAutoScroll } from "@/hooks/use-auto-scroll";
 import { useEffect, useRef } from "react";
 import MessageContent from "./message-content";
 
